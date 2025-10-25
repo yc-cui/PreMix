@@ -37,6 +37,9 @@ One training example:
 python train.py --rgb_c 2,1,0 --ms_chans 4 --sensor GF --data_dir "~/data/3 Gaofen-1" --embed_dim 32 --kernel_size 3 --pf_kernel 3 --num_layers 1 --EWFM --activation tanh+relu
 ```
 
+### Note
+
+The depth (`num_layers`) of the model has a significant impact on its performance. Increasing this value can lead to better performance.
 
 ## Testing
 
@@ -67,4 +70,4 @@ keywords = {Pansharpening, Image fusion, Predictive filtering, Deep learning},
 
 ## Contact
 
-Should you have any question, please contact cugcuiyc@cug.edu.cn
+Should you have any question, please contact yongchuancui@gmail.com
